@@ -1,5 +1,0 @@
-un modello di sintesi nel quale, il contenuto viene filtrato e viene controllata l'ampiezza del segnale
-
-import("stdfaust.it");
-fcut=vslider("[01]" cut-off [scale:exp][style:knob]" ; 1000,20,20000,1)")
-order=128
